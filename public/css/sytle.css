@@ -1,0 +1,282 @@
+/* CSS Styling */
+
+.bgimg {
+  background-image: url(../img/bg02.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 760px;
+}
+
+/* .hName{
+color: ;
+} */
+
+/* .btn {
+
+} */
+
+.headerset {
+  padding-top: 200px;
+  box-sizing: border-box;
+}
+
+.headerset h2 {
+  font-size: 22px;
+}
+
+.headerset h1 {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+/* expertise sectio  styling  */
+.expertise {
+  padding: 100px 0px 60px;
+  height: 700px;
+}
+
+.rowsetting {
+  margin: 80px 0px !important;
+}
+
+.expertise h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.imgsetting {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.fa-code {
+  margin-top: 11px;
+}
+
+.fa-gg-circle {
+  margin-top: 11px;
+}
+
+.fa-cloudversify {
+  margin-top: 13px;
+}
+
+.rowsetting p {
+  padding: 10px;
+  color: lightslategray !important;
+}
+
+.rowsetting h2 {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* Portfolio Section Styling */
+
+.portfolio {
+  width: 100%;
+  height: 1100px;
+  padding: 100px 0px 50px;
+}
+
+.portfolio h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.card {
+  margin-top: 40px;
+}
+
+/* About Me Section Styling */
+
+.aboutme {
+  width: 100%;
+  height: 700px;
+  padding: 100px 0px 50px;
+}
+
+/* Contact Section Styling */
+
+.page-section {
+  height: 400px;
+}
+
+.form-section {
+  padding: 100px 0px 50px;
+}
+
+.form-section {
+  background-image: url("../img/map-image.png");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-color: #212529;
+  width: 100%;
+  height: 660px;
+}
+
+.form-section h2 {
+  color: #fff;
+}
+
+/* Footer section Styling */
+
+.footer {
+  padding: 25px 0;
+  text-align: center;
+}
+
+.footer span.copyright {
+  font-size: 90%;
+  line-height: 40px;
+  text-transform: none;
+}
+
+.footer ul.quicklinks {
+  font-size: 90%;
+  line-height: 40px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #212529;
+}
+
+ul.social-buttons li a:active,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:hover {
+  background-color: #fed136;
+}
+
+/* Responsive Media Queries */
+
+@media screen and (max-width: 992px) {
+  .headerset h2 {
+    font-size: 42px;
+  }
+
+  .headerset h1 {
+    font-size: 62px;
+    font-weight: bold;
+  }
+
+  .aboutme {
+    height: 800px;
+  }
+
+  .expertise {
+    height: 800px;
+  }
+
+  .portfolio {
+    height: 1000px;
+  }
+
+  .page-section {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .headerset h2 {
+    font-size: 42px;
+  }
+
+  .headerset h1 {
+    font-size: 52px;
+    font-weight: bold;
+  }
+
+  .aboutme {
+    height: 1000px;
+  }
+
+  .expertise {
+    height: 1400px;
+  }
+
+  .portfolio {
+    height: 2900px;
+  }
+
+  .page-section {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .headerset h2 {
+    font-size: 32px;
+  }
+
+  .headerset h1 {
+    font-size: 52px;
+    font-weight: bold;
+  }
+
+  .aboutme {
+    height: 1500px;
+  }
+
+  .expertise {
+    height: 1400px;
+  }
+
+  .portfolio {
+    height: 2700px;
+  }
+
+  .page-section {
+    height: 500px;
+  }
+
+  .form-section {
+  }
+}
+
+@media (max-width: 479px) {
+  .headerset h2 {
+    font-size: 22px;
+  }
+
+  .headerset h1 {
+    font-size: 42px;
+    font-weight: bold;
+  }
+
+  .aboutme {
+    height: 1600px;
+  }
+
+  .expertise {
+    height: 1800px;
+  }
+
+  .portfolio {
+    height: 2200px;
+  }
+
+  .page-section {
+    height: 500px;
+  }
+  .form-section {
+  }
+}
+
