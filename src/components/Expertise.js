@@ -3,14 +3,14 @@ import React from 'react'
 const Expertise = () => {
  return (
    <div>
-     <section class='container expertise text-center' id='expertise'>
+     <section className='container expertise text-center' id='expertise'>
        <h1>Expertise</h1>
        <p>Sometimes the best way to envision the future is to invent it</p>
 
-       <div class='row rowsetting'>
-         <div class='col-lg-4 col-md-4 col-sm-10 col-10 d-block m-auto'>
-           <div class='imgsetting d-block m-auto bg-secondary'>
-             <i class='fas fa-code fa-5x text-white'></i>
+       <div className='row rowsetting'>
+         <div className='col-lg-4 col-md-4 col-sm-10 col-10 d-block m-auto'>
+           <div className='imgsetting d-block m-auto bg-secondary'>
+             <i className='fas fa-code fa-5x text-white'></i>
            </div>
            <h2>Full Stack Development</h2>
            <p>
@@ -21,9 +21,9 @@ const Expertise = () => {
            </p>
          </div>
 
-         <div class='col-lg-4 col-md-4 col-sm-10 col-10 d-block m-auto'>
-           <div class='imgsetting d-block m-auto bg-secondary'>
-             <i class='fab fa-gg-circle fa-5x text-white'></i>
+         <div className='col-lg-4 col-md-4 col-sm-10 col-10 d-block m-auto'>
+           <div className='imgsetting d-block m-auto bg-secondary'>
+             <i className='fab fa-gg-circle fa-5x text-white'></i>
            </div>
            <h2>DevOps Management</h2>
            <p>
@@ -34,9 +34,9 @@ const Expertise = () => {
            </p>
          </div>
 
-         <div class='col-lg-4 col-md-4 col-sm-10 col-10 d-block m-auto'>
-           <div class='imgsetting d-block m-auto bg-secondary'>
-             <i class='fab fa-cloudversify fa-5x text-white'></i>
+         <div className='col-lg-4 col-md-4 col-sm-10 col-10 d-block m-auto'>
+           <div className='imgsetting d-block m-auto bg-secondary'>
+             <i className='fab fa-cloudversify fa-5x text-white'></i>
            </div>
            <h2>Cloud Architecture</h2>
            <p>

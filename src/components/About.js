@@ -3,21 +3,21 @@ import React from 'react'
 const About = () => {
  return (
   <div>
-    <section class="aboutme" id="about">
-      <div class="container bg-light text-center">
+    <section className="aboutme" id="about">
+      <div className="container bg-light text-center">
         <h1>About Me</h1>
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+        <div className="row">
+          <div className="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
             <div
               id="carouselExampleIndicators"
-              class="carousel slide"
+              className="carousel slide"
               data-ride="carousel"
             >
-              <ol class="carousel-indicators">
+              <ol className="carousel-indicators">
                 <li
                   data-target="#carouselExampleIndicators"
                   data-slide-to="0"
-                  class="active"
+                  className="active"
                 ></li>
                 <li
                   data-target="#carouselExampleIndicators"
@@ -32,63 +32,63 @@ const About = () => {
                   data-slide-to="3"
                 ></li>
               </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
+              <div className="carousel-inner">
+                <div className="carousel-item active">
                   <img
-                    class="d-block w-100"
+                    className="d-block w-100"
                     src="./img/jspic4.jpg"
                     alt="First slide"
                   />
                 </div>
-                <div class="carousel-item">
+                <div className="carousel-item">
                   <img
-                    class="d-block w-100"
+                    className="d-block w-100"
                     src="./img/jspic3.jpg"
                     alt="Second slide"
                   />
                 </div>
-                <div class="carousel-item">
+                <div className="carousel-item">
                   <img
-                    class="d-block w-100"
+                    className="d-block w-100"
                     src="./img/jspic2.jpg"
                     alt="Third slide"
                   />
                 </div>
-                <div class="carousel-item">
+                <div className="carousel-item">
                   <img
-                    class="d-block w-100"
+                    className="d-block w-100"
                     src="./img/jspic1.jpg"
                     alt="Fourth slide"
                   />
                 </div>
               </div>
               <a
-                class="carousel-control-prev"
+                className="carousel-control-prev"
                 href="#carouselExampleIndicators"
                 role="button"
                 data-slide="prev"
               >
                 <span
-                  class="carousel-control-prev-icon"
+                  className="carousel-control-prev-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="sr-only">Previous</span>
+                <span className="sr-only">Previous</span>
               </a>
               <a
-                class="carousel-control-next"
+                className="carousel-control-next"
                 href="#carouselExampleIndicators"
                 role="button"
                 data-slide="next"
               >
                 <span
-                  class="carousel-control-next-icon"
+                  className="carousel-control-next-icon"
                   aria-hidden="true"
                 ></span>
-                <span class="sr-only">Next</span>
+                <span className="sr-only">Next</span>
               </a>
             </div>
           </div>
-          <div class="col-lg-8 col-md-8 col-sm-8 col-10 d-block m-auto text-left">
+          <div className="col-lg-8 col-md-8 col-sm-8 col-10 d-block m-auto text-left">
             <p>
               A technology leader with 22+ years of experience in the software &
               IT infrastructure industries skilled in analyzing business

@@ -6,11 +6,10 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
-// import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar />
       <About />
       <Expertise />
