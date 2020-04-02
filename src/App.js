@@ -1,12 +1,23 @@
 import React from 'react';
 import Navbar from './components/Navbar'
-import './App.css';
+import About from './components/About'
+import Expertise from './components/Expertise';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
+// import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      
+      <About />
+      <Expertise />
+      <Portfolio />
+      <Contact />
+      <ContactForm />
+      <Footer />
     </div>
   );
 }
