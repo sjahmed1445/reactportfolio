@@ -51,7 +51,7 @@ const Navbar = () => {
      </nav>
 
      <div className='container text-center text-white headerset'>
-       <h2>Welcome to Jawad Syed Poftfolio Site</h2>
+       <h2>Welcome to Jawad Syed Portfolio Site</h2>
        <h1>The Possibilities are Infinite</h1>
 
        <a
